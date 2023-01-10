@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Test;
+namespace App\Worker;
 
 use PharIo\Version\Version;
 use Symplify\MonorepoBuilder\Release\Contract\ReleaseWorker\ReleaseWorkerInterface;

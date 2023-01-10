@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tests;
+namespace App\Tests\Unit;
 
 use App\Worker\SkeletonReleaseWorker;
 use PHPUnit\Framework\TestCase;
@@ -12,7 +12,7 @@ class SkeletonReleaseWorkerTest extends TestCase
         $this->instance = new SkeletonReleaseWorker();
     }
 
-    public function testUpdateVersionDescription()
+    public function testFooBar()
     {
     }
 }
